@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2? family = Shippori + Mincho + B1: wght @ 600 & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=New+Tegomin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=New+Tegomin&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.centros{
+	margin-top: 30px;
+	margin-left: 35%;
+}
+
+.pedido{
+color: white;
+background-color: #dd8bdd;
+list-style: none;
+font-family: 'Noto Sans JP', sans-serif;
+font-size:1rem;
+margin-left:40vw;
+list-style: none;
+}
+
+.fondo {
+	background:linear-gradient(to right,#f775d35c,#3c26365c);
+}
+
+.boxImagen {
+	width: 100%;
+	max-height: 50%;
+	background-size: cover;
+	display: flex;
+	flex-direction: row;
+	text-align: start;
+	align-content: start;
+	justify-content: space-around;
+}
+
+.logo{
+	display: inline-block;
+	margin-right: 79%;
+	margin-top: 1vh;
+}
+
+.titulo {
+	display:inline-block;
+	font-size:1em;
+	color: white;
+	font-family: 'Noto Sans JP', sans-serif;
+	margin-right: 1vw;
+	border: 2% #d0a1c3;
+	background-color: #d0a1c3;
+	z-index: 100;
+}
+
+.slogan {
+	display: inline-block;
+	font-size: 4em;
+	color: white;
+	font-family: 'Italianno', cursive;
+	margin-left: 1vw;
+	margin-top: 2vh;
+	line-height: 10px;
+	font-style: solid;
+	margin-bottom: 6vh;
+	z-index: 100;
+}
+
+.list{
+	display: inline-block;
+	margin-right:4vw;
+	margin-top: 1vh;
+	list-style: none;
+	z-index: 100;
+}
+
+.listas {
+	display: inline-block;
+	text-decoration: none;
+	font-size:2rem;
+	color: white;
+	font-family: 'Noto Sans JP', sans-serif;
+	list-style: none;
+	z-index: 100;
+}
+.boxMenu{
+	display: inline-block;
+	margin-left:4vw;
+	list-style: none;
+	margin-top: 9vh;
+	margin-bottom: 11vh;
+	z-index: 100;
+}
+
+.nombrePagina{
+	font-size: 3em;
+	font-family: 'Noto Sans JP', sans-serif;	
+	color: white;
+	margin-right: 1vw;	
+	margin-top:2vh;
+	z-index: 100;
+}
+
+.animate__zoomIn{
+	animation-duration: 5s;
+}
+
+.menu{
+	display: grid;
+	grid-template-columns: repeat(2, 40%) ;
+	grid-template-rows: repeat (2, 40%) ;
+	justify-content: center;
+	align-content: space-between;
+	grid-column-gap: 5%;
+	grid-row-gap:5%;
+	margin-left: 5vw;
+	margin-top:3%;
+}
+
+.referencia{
+	font-size: 2em;
+	font-family: 'Noto Sans JP', sans-serif;	
+	color: purple;
+	margin-left:5vw;
+	margin-top: 15vh;
+}
+
+.referencia2{
+	font-size: 1em;
+	font-family: 'Noto Sans JP', sans-serif;	
+	color: grey;
+	margin-left:5vw;
+	margin-top: 5vh;
+}
+
+
+.menu2{
+	display: grid;
+	grid-template-columns: repeat(2, 40%) ;
+	grid-template-rows: repeat (2, 60%) ;
+	justify-content: center;
+	align-content: space-between;
+	grid-column-gap: 5%;
+	grid-row-gap:5%;
+	margin-left: 11vw;
+	margin-top:3%;
+}
+
+.referencia3{
+	font-size: 2em;
+	font-family: 'Noto Sans JP', sans-serif;	
+	color: purple;
+	margin-right:18vw;
+	margin-top: 5vh;
+}
+
+.referencia4{
+	font-size: 1em;
+	font-family: 'Noto Sans JP', sans-serif;	
+	color: grey;
+	margin-right:18vw;
+	margin-top: 1vh;
+}
+
+.referencia5{
+	font-size: 1em;
+	font-family: 'Noto Sans JP', sans-serif;	
+	color: grey;
+	margin-right:18vw;
+	margin-top: 1vh;
+	background-color: white;
+	border: 2px, purple;
+}
+
+.contenedor {
+	display: grid;
+	grid-template-columns: repeat(6, 200px) ;
+	grid-template-rows: repeat (6, 200px) ;
+	justify-content: center;
+	align-content: space-between;
+	grid-column-gap: 15px;
+	grid-row-gap: 25px;
+	margin-left: 40px;
+	padding: 2%;
+}
+
+.imagenesMenu{	
+	margin-top: 30px;
+	padding: 20px 20px;
+	transform: translate(5px;10px);
+}
+
+.imagenesMenu h4 {
+	display: block;
+	font-size: 20px;
+	padding: 5px 5px;
+	margin-top: 25px;
+	margin-left:35px;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.imagenesMenu p {
+	display: inline-block;
+	font-size: 15px;
+	padding: 2px 2px;
+	margin-top: 2px;
+	margin-left:50px;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.tipo {
+	font-size: 4em;
+	text-align: center;
+	margin-top: 2%;
+	color: purple;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.caja {
+	padding-top: 1%;
+	max-width: 90%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 23%) ;
+	grid-template-rows: repeat (6,40%) ;
+	justify-content: space-between;
+	align-content: space-between;
+	grid-column-gap: 5%;
+	grid-row-gap: 1%;
+	margin-left: 4%;
+}
+
+.nombreTorta {
+	font-size: 2em;
+	text-align: center;
+	color: purple;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.imagenTorta{
+	padding: 2%;
+	text-align:center;
+}
+
+.descripcion{
+	text-align: center;
+	font-size:1em;
+	font-family: 'Noto Sans JP', sans-serif;
+	color: purple;
+	margin-top: 1vh;
+}
+
+.caja2{
+	padding-top: 1%;
+	max-width: 80%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(2,40%);
+	grid-template-rows: repeat (6,50%);
+	justify-content: space-between;
+	align-content: space-between;
+	grid-column-gap: 2%;
+	grid-row-gap: 3%;
+	margin-left: 5%;
+}
+
+.nombreBoxes{
+	font-size: 2em;
+	color: purple;
+	font-family: 'Noto Sans JP', sans-serif;
+	margin-top: 4vh;
+	margin-left:5vw;
+}
+
+.imagenesBoxes{
+	padding: 2%;
+	margin-top:1vh;
+	margin-left:5vw;
+
+}
+
+.tablasBoxes {
+	font-size:1em;
+	font-family: 'Noto Sans JP', sans-serif;
+	margin-top:2vh;
+	margin-left:5vw;
+}
+
+
+.primero {
+	color: purple;
+	text-align: center;
+	font-size: 2em;
+	font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.intro {
+	text-align: center;
+	font-size: 25px;
+	color:purple;
+	margin-left:70px;
+	margin-right:70px;
+	margin-top: 30px;
+	font-family: 'Heebo', sans-serif;
+}
+
+.intro2 {
+	text-align: center;
+	font-size: 25px;
+	color:purple;
+	margin-left:70px;
+	margin-right:70px;
+	margin-top: 60px;
+	font-family: 'Heebo', sans-serif;
+}
+
+.icono{
+	float: left;
+	margin-left:95%;
+	top: 93%;
+	position: fixed;
+}
+
+.pieDePagina{
+	width: 100%;
+	height: 100px;
+	background:linear-gradient(to top,black ,#00000038);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: space-between;
+	align-content: center;
+}
+
+footer{
+	display: inline-block;
+	margin-top: 10px;
+}
+
+footer ul{
+	display: inline-block;
+	text-decoration: none;
+	font-size:28px;
+	color: black;
+	font-family: 'Heebo', sans-serif;
+}
+
+footer ul li{
+	display: inline-block;
+	margin-left:10vw;
+	margin-top: 3vh;
+}
+
+footer ul a{
+	text-decoration: none;
+	display: inline-block;
+	color: black;
+	font-size: 20px;
+	margin-left: 2%;
+}
+
+.boton:hover {
+	transform: scale(1.3);
+
+}
+
+.boton2:hover {
+	transform: scale(1.2);
+}
+
+
